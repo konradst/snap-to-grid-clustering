@@ -1,11 +1,11 @@
 {
-  "name": "grid-clustering",
+  "name": "snap-to-grid-clustering",
   "version": "1.0.0",
   "description": "snap to grid clustering",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
   "module": "build/module/index.js",
-  "repository": "https://github.com/YOUR_GITHUB_USER_NAME/grid-clustering",
+  "repository": "git@github.com:konradst/snap-to-grid-clustering.git",
   "license": "MIT",
   "keywords": [],
   "scripts": {
