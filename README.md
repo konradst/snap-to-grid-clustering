@@ -1,6 +1,17 @@
 ![npm type definitions](https://img.shields.io/npm/types/snap-to-grid-clustering.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/konradst/snap-to-grid-clustering.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/konradst/snap-to-grid-clustering.svg)
+![npm bundle size](https://img.shields.io/bundlephobia/min/snap-to-grid-clustering.svg)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/snap-to-grid-clustering.svg)![npm](https://img.shields.io/npm/v/snap-to-grid-clustering.svg)
+![GitHub issues](https://img.shields.io/github/issues/konradst/snap-to-grid-clustering.svg)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/konradst/snap-to-grid-clustering.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/konradst/snap-to-grid-clustering.svg)
+![GitHub](https://img.shields.io/github/license/konradst/snap-to-grid-clustering.svg)
 
-# Snap to grid clustering
+![GitHub followers](https://img.shields.io/github/followers/konradst.svg?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/konradst1.svg?style=social)
+
+# Snap to Grid Clustering
 
 Clustering based on grid. Snaps coords to the nearest grid point determined by `gridSize`. Grid coords are rounded. Point `(1.2, 1)` is snapped to `(1, 1)`. Point `(1.6, 1)` is snapped to `(2, 1)` for `gridSize = 1`.
 
@@ -13,7 +24,7 @@ npm install snap-to-grid-clustering
 
 ## ```snap(coords: Coords, gridSize: number) { ... }```
 
-Immutable. Returns snapped ids at cluster coords.
+Immutable. Returns snapped ids hashmap at cluster coords.
 
 ### Example (ts module)
 ```ts
