@@ -10,4 +10,4 @@ export interface SnappedCoords {
 }
 
 // [ [0,2], [1] ]
-export type SnappedCoordsIndexes = ReadonlyArray<ReadonlyArray<number>>;
+export type SnappedCoordsList = ReadonlyArray<ReadonlyArray<number>>;
