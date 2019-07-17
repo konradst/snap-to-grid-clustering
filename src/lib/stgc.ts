@@ -9,14 +9,14 @@ import { Coord, Coords, SnappedCoords, SnappedCoordsIndexes } from './coords';
  * snapIndexes([[-1, 1], [2, 3], [10, 10], [11, 11]], 5)
  * // => [[0], [1], [2, 3]]
  * ```
- * 
+ *
  * ### Example (es module)
  * ```js
  * import { snapIndexes } from 'snap-to-grid-clustering'
  * console.log(snapIndexes([[-1, 1], [2, 3], [10, 10], [11, 11]], 5))
  * // => [[0], [1], [2, 3]]
  * ```
- * 
+ *
  * ### Example (commonjs)
  * ```js
  * var snapIndexes = require('snap-to-grid-clustering').snapIndexes;
