@@ -8,19 +8,33 @@ Create an array of point ids that snap to a given grid size.
 
 ## Installation & usage
 
+Installation:
 ```
 npm install snap-to-grid-clustering
 ```
 
+Usage:
+```
+snapIndexes(coords: Coords, gridSize: number)
+```
+
+### Example (ts module)
+```ts
+import { snapIndexes } from 'snap-to-grid-clustering';
+snapIndexes([[-1, 1], [2, 3], [10, 10], [11, 11]], 5)
+// => [[0], [1], [2, 3]]
+```
+
 ### Example (es module)
 ```js
-import { snap } from 'snap-to-grid-clustering'
-console.log(snapIndexes([[1,2],[3,4],[10,20]], 5))
-// => [[0,1],[2]]
+import { snapIndexes } from 'snap-to-grid-clustering'
+console.log(snapIndexes([[-1, 1], [2, 3], [10, 10], [11, 11]], 5))
+// => [[0], [1], [2, 3]]
 ```
+
 ### Example (commonjs)
 ```js
-var snap = require('snap-to-grid-clustering').snap;
-console.log(snapIndexes([[1,2],[3,4],[10,20]], 5))
-// => [[0,1],[2]]
+var snapIndexes = require('snap-to-grid-clustering').snapIndexes;
+console.log(snapIndexes([[-1, 1], [2, 3], [10, 10], [11, 11]], 5))
+// => [[0], [1], [2, 3]]
 ```
