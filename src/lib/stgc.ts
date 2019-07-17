@@ -1,9 +1,9 @@
 import { Coord, Coords, SnappedCoords, SnappedCoordsList } from './coords';
 
 /**
- * Create an array of point ids that snap to a given grid size
- *
- *  ### Example (ts module)
+ * Returns snapped ids at cluster coords.
+ * 
+ * ### Example (ts module)
  * ```ts
  * import { snap } from 'snap-to-grid-clustering';
  * snap([[-1, 1], [2, 3], [10, 10], [11, 11]], 5)
@@ -44,9 +44,9 @@ export function snap(coords: Coords, gridSize: number): SnappedCoords {
 }
 
 /**
- * Create an array of point ids that snap to a given grid size
+ * Returns snapped ids as list.
  *
- *  ### Example (ts module)
+ * ### Example (ts module)
  * ```ts
  * import { snapList } from 'snap-to-grid-clustering';
  * snapList([[-1, 1], [2, 3], [10, 10], [11, 11]], 5)
