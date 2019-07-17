@@ -2,7 +2,7 @@ import { Coord, Coords, SnappedCoords, SnappedCoordsList } from './coords';
 
 /**
  * Returns snapped ids at cluster coords.
- * 
+ *
  * ### Example (ts module)
  * ```ts
  * import { snap } from 'snap-to-grid-clustering';
