@@ -1,6 +1,6 @@
 {
   "name": "snap-to-grid-clustering",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "snap to grid clustering",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -12,7 +12,8 @@
     "grid",
     "snap",
     "TypeScript",
-    "JavaScript"
+    "JavaScript",
+    "snap to grid"
   ],
   "scripts": {
     "describe": "npm-scripts-info",
