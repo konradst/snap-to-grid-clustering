@@ -4,11 +4,14 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/snap-to-grid-clustering.svg)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/snap-to-grid-clustering.svg)
 ![npm](https://img.shields.io/npm/v/snap-to-grid-clustering.svg)
+![typescript-starter](https://img.shields.io/badge/boilerplate-typescript--starter-blue.svg)
 ![CircleCI](https://img.shields.io/circleci/build/github/konradst/snap-to-grid-clustering.svg)
 ![GitHub issues](https://img.shields.io/github/issues/konradst/snap-to-grid-clustering.svg)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/konradst/snap-to-grid-clustering.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/konradst/snap-to-grid-clustering.svg)
 ![GitHub](https://img.shields.io/github/license/konradst/snap-to-grid-clustering.svg)
+
+[![CircleCI](https://circleci.com/gh/konradst/snap-to-grid-clustering.svg?style=svg)](https://circleci.com/gh/konradst/snap-to-grid-clustering)
 
 ![GitHub followers](https://img.shields.io/github/followers/konradst.svg?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/konradst1.svg?style=social)
@@ -69,7 +72,3 @@ var snapList = require('snap-to-grid-clustering').snapList;
 console.log(snapList([[-1, 1], [2, 3], [10, 10], [11, 11]], 5))
 // => [[0], [1], [2, 3]]
 ```
-
-# Credits
-
-Scaffolded with ```npx typescript-starter```
