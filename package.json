@@ -58,7 +58,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "ava": "2.2.0",
+    "ava": "5.2.0",
     "codecov": "^3.5.0",
     "cz-conventional-changelog": "^2.1.0",
     "gh-pages": "^2.0.1",
